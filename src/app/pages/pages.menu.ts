@@ -2,7 +2,7 @@ export const PAGES_MENU = [
   {
     path: 'pages',
     children: [
-      {
+      /*{
         path: 'new',  // path for our page
         data: { // custom menu declaration
           menu: {
@@ -13,7 +13,7 @@ export const PAGES_MENU = [
             order: 0
           }
         }
-      },
+      },*/
       {
         path: 'dashboard',
         data: {
@@ -30,7 +30,7 @@ export const PAGES_MENU = [
         path: 'editors',
         data: {
           menu: {
-            title: 'Editors',
+            title: 'Impacted CI',
             icon: 'ion-edit',
             selected: false,
             expanded: false,
@@ -74,7 +74,7 @@ export const PAGES_MENU = [
         path: 'charts',
         data: {
           menu: {
-            title: 'Charts',
+            title: 'Related Changes',
             icon: 'ion-stats-bars',
             selected: false,
             expanded: false,
@@ -91,7 +91,7 @@ export const PAGES_MENU = [
             }
           }
         ]
-      },
+      }/*,
       {
         path: 'ui',
         data: {
@@ -330,7 +330,7 @@ export const PAGES_MENU = [
             target: '_blank'
           }
         }
-      }
+      }*/
     ]
   }
 ];
